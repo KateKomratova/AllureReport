@@ -17,7 +17,6 @@ public class DataGenerator {
     public static class Registration {
         public static RegistrationInfo generateInfo(String locale) {
             return new RegistrationInfo(generateCity(),
-                    generateDate(3),
                     generateName(),
                     generatePhone());
         }
